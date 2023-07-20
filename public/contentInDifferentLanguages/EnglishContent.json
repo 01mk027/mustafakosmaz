@@ -4,7 +4,6 @@
         "mainPage":"Index Page",
         "aboutMe" : "About Me",
         "projects": "Projects",
-        "thesis":"Scientific Publication",
         "services":"Services"
     },
     "Index":
@@ -144,6 +143,10 @@
                 "CSS",
                 "HTML"
             ]
+        },
+        "scientificPublication":{
+            "scientificPublicationCaption":"SCIENTIFIC PUBLICATION",
+            "scientificPublicationText":"IMPROVEMENT OF D<sub>s</sub><sup>&plusmn;</sup> MESON'S SIGNAL VIA ARTIFICIAL NEURAL NETWORKS"
         }
     },
     "Projects":

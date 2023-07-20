@@ -4,7 +4,6 @@
         "mainPage":"Ana Sayfa",
         "aboutMe" : "Hakkımda",
         "projects": "Projeler",
-        "thesis":"Bilimsel Yayın",
         "services":"Hizmetler"
     },
     "Index":
@@ -146,6 +145,10 @@
                 "CSS",
                 "HTML"
             ]
+        },
+        "scientificPublication":{
+            "scientificPublicationCaption":"BİLİMSEL YAYIN",
+            "scientificPublicationText":"D<sub>s</sub><sup>&plusmn;</sup> mezonun sinyalinin yapay sinir ağları kullanılarak iyileştirilmesi"
         }
     },
     "Projects":

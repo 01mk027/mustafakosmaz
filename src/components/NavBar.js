@@ -91,9 +91,6 @@ function NavBar() {
                   </li>
                 </Link>
 
-
-                <Link to="/thesis" className={`nav-link ${NavStyles.navLink}`}><li className={`${NavStyles.navLink} nav-item`}><b className={NavStyles.navItemText}>{language.Navbar.thesis}</b></li></Link>
-
                 <Link to="/services" className={`nav-link ${NavStyles.navLink}`}>
                   <li className={`${NavStyles.navLink} nav-item`}>
                     <b className={NavStyles.navItemText}>{language.Navbar.services}</b>

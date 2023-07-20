@@ -21,8 +21,7 @@ To fetch content of app and assign to context API object.
 To design of pages responsively.
 ### react-helmet and react-helmet-async
 To perform basic SEO operations.
-### react-pdf
-To show my thesis in ```Scientific Publication``` page.
+
 ### html-react-parser
 To parse plain text to HTML text in ```Projects``` page.
 

@@ -1,5 +1,3 @@
-"use strict"
-
 import { useState, useEffect, React} from 'react';
 import  Context  from './context/Context';
 import  LanguageContext  from './context/LanguageContext';
@@ -7,7 +5,6 @@ import Index from './components/Index';
 import AnimatedIntro from './components/AnimatedIntro';
 import About from './components/About';
 import Projects from './components/Projects';
-import MyThesis from './components/MyThesis';
 import Services from './components/Services';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
@@ -15,7 +12,6 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import axios from 'axios';
-import Thesis from './components/Thesis';
 import NotFound from './components/NotFound';
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
@@ -63,7 +59,6 @@ function App() {
               <Route exact path="/" element={<Index />} />
               <Route exact path="/about" element={<About />} />
               <Route  path='/projects' element={<Projects/>}/>
-              <Route  path='/thesis' element={<Thesis/>}/>
               <Route  path='/services' element={<Services/>}/>
               <Route path='*' element={<NotFound/>}/>
             </Routes>
