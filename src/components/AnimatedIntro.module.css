@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+@keyframes fadeOut{
+    0% { opacity: 1; visibility: visible; }  
+    100% { opacity: 0; visibility: hidden; }
+}
+
+.fadeOutClass
+{
+    animation-name: fadeOut;
+    animation-duration: 2s;
+}
+
+
+.mainDiv{
+    height: 100vh;
+    color: black;
+    background-color: black;
+    animation-name: fadeOut;
+    animation-delay: 5800ms;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    display: flex; 
+    text-align: center;   
+    place-items: center;
+    clear: both;        
+  }
+
+
+
+.centerScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin-left: -20px;
+  }
+
+  .outPoint
+  {
+    width: 20px;
+    height: 20px;
+    background-color: orangered;
+  }
+
+  @keyframes example
+  {
+    0%{
+        left: 0px;
+        opacity: 0;
+    }
+    
+    100%{
+        left: 50px;
+        opacity: 1;
+        text-shadow: 0 0 4px #9ecaed;
+    }
+
+  }
+
+
+  .myFullName{
+    position: relative;
+    color: fuchsia;
+    animation-name: example;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    animation-timing-function: linear;
+    margin-left: -70px;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes animateFrameRed
+{
+  0%
+  {
+    background-color: red;
+    transform: translate(-100%, 0%);
+  }
+  50%{
+    background-color: red;  
+  }
+  100%{
+    background-color: red;
+  }
+}
+
+
+@keyframes animateFrameOrange
+{
+  0%
+  {
+    background-color: orange;
+    transform: translate(-100%, 0%);
+    opacity: 0;
+  }
+  50%{
+    background-color: orange;  
+    opacity: 0.5;
+  }
+  100%{
+    background-color: orange;
+    opacity: 1;
+  }
+}
+
+@keyframes animateFrameYellow
+{
+  0%
+  {
+    background-color: yellow;
+    transform: translate(-100%, 0%);
+  }
+  50%{
+    background-color: yellow;  }
+  100%{
+    background-color: yellow;
+  }
+}
+
+@keyframes animateFrameGreen
+{
+  0%
+  {
+    background-color: green;
+    transform: translate(-100%, 0%);
+  }
+  50%{
+    background-color: green;  }
+  100%{
+    background-color: green;
+  }
+}
+
+@keyframes animateFrameBlue
+{
+  0%
+  {
+    background-color: blue;
+    transform: translate(-100%, 0%);
+  }
+  50%{
+    background-color: blue;  }
+  100%{
+    background-color: blue;
+  }
+}
+
+
+@keyframes animateFrameIndigo
+{
+  0%
+  {
+    background-color: indigo;
+    transform: translate(-100%, 0%);
+  }
+  50%{
+    background-color: indigo;  }
+  100%{
+    background-color: indigo;
+  }
+}
+
+@keyframes animateFrameYellow
+{
+  0%
+  {
+    background-color: yellow;
+    transform: translate(-100%, 0%);
+  }
+  50%{
+    background-color: yellow;  }
+  100%{
+    background-color: yellow;
+  }
+}
+
+.animatedFrameIndigo{
+  min-height: 100vh;
+  min-width: 100%;
+  animation-name: animateFrameIndigo;
+  position: absolute;
+  animation-delay: 0s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.animatedFrameOrange
+{
+  min-height: 100vh;
+  min-width: 100%;
+  position: absolute;
+  animation-name: animateFrameOrange;
+  animation-delay: 1.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+
+
+.animatedFrameBlue{
+  min-height: 100vh;
+  min-width: 100%;
+  animation-name: animateFrameBlue;
+  position: absolute;
+  animation-delay: 3s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+
+
+.animatedFrameYellow{
+  min-height: 100vh;
+  min-width: 100%;
+  animation-name: animateFrameYellow;
+  position: absolute;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animatingText
+{
+  0%
+  {
+    opacity: 0;
+    visibility: hidden;
+  }
+  25%
+  {
+    opacity: 0.5;
+    visibility: visible;
+  }
+  50%
+  {
+    opacity: 1;
+    visibility: visible;
+  }
+  75%
+  {
+    opacity: 0.5;
+    visibility: visible;    
+  }
+  100%
+  {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
+.animateTextIndigo
+{
+  animation-name: animatingText;
+  animation-delay: 0.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif; 
+  visibility: hidden;
+}
+
+.animateTextOrange
+{
+  animation-name: animatingText;
+  animation-delay: 2s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color:blue;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif; 
+  visibility: hidden;
+}
+
+.animateTextBlue
+{
+  animation-name: animatingText;
+  animation-delay: 3.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color:yellow;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif; 
+  visibility: hidden;
+}
+
+.animateTextYellow
+{
+  animation-name: animatingText;
+  animation-delay: 5.0s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: blue;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: 'Roboto', sans-serif; 
+  visibility: hidden;
+
+}

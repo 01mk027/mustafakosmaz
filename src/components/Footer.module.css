@@ -1,0 +1,43 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.mainDivOfFooter{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    background-color: blue;
+}
+
+.myName
+{
+    color: orange;
+}
+
+.socialMediaFrames
+{
+    width: 50%;
+    margin: auto;
+}
+
+.socialIcon
+{
+    background-color: white;
+    width: 33px;
+    height: 33px;
+    border: 5px gray;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.socialIcon:hover 
+{
+    background-color: orange;
+    cursor: pointer;
+}

@@ -1,0 +1,244 @@
+{
+    "Navbar":
+    {
+        "mainPage":"Index Page",
+        "aboutMe" : "About Me",
+        "projects": "Projects",
+        "thesis":"Scientific Publication",
+        "services":"Services"
+    },
+    "Index":
+    {
+        "teslaQuote":"If you want to find the secrets of the universe, think in terms of energy, frequency and vibration.",
+        "teslaFullName": "Nikola TESLA",
+        "inMemoryOfTesla": "In memory of Tesla",
+        "showSub1": "In the light of science, on the trail of success.",
+        "showSub2":"Striving to rise together.",
+        "showSub3":"Always forward with the power of science.",
+        "introductionCaption":"WELCOME",
+        "introductionText":"Hi, I am Mustafa KOŞMAZ. In order to introduce myself, I aim to give you enough information about me on this site. You can find detailed information about me on About Me page and the link of the source codes of my projects on Projects page. Stay with love."
+    },
+    "About":
+    {
+        "generalInformation":
+        {
+            "generalInformationCaption": "GENERAL INFORMATION",
+            "fullNameCaption": "FULL NAME",
+            "fullName":"Mustafa KOŞMAZ",
+            "emailCaption":"E-MAIL",
+            "email":"mustafagantep27@gmail.com",
+            "birthDateCaption":"BIRTH DATE",
+            "birthDate":"13.04.1989",
+            "birthPlaceCaption":"BIRTH PLACE",
+            "birthPlace":"Adana",
+            "nationalityCaption":"NATIONALITY",
+            "nationality":"Turkish Republic",
+            "militaryStatusCaption": "MILITARY STATUS",
+            "militaryStatus": "Exempt",
+            "workingExperienceCaption":"WORKING EXPERIENCE",
+            "summaryCaption":"SUMMARY",
+            "summary":"Thanks to my strong digital infrastructure, my ability to analyze is strong. Although I have experience in many branches of software, I intend to continue my career as a full-stack developer. It is my biggest feature to reflect my ambitious and determined personality to my work."
+        },
+        "workingExperience":
+        [
+            {
+                "firmNameCaption":"FIRM NAME",
+                "firmName": "Maksopus Software",
+                "workingDateIntervalCaption":"WORKING DATE INTERVAL",
+                "workingDateInterval":"03.2022-06.2023",
+                "usedTechnologiesCaption":"USED PROGRAMMING LANGUAGES",
+                "usedTechnologies":["Node.js", "Java", "Javascript"],
+                "descriptionCaption":"DESCRIPTION",
+                "description":"My task at this workplace was the development of the software of the electric vehicle charging stations and the central system they are connected to, by including the Open Ended Charging Point (OCPP) protocol, which is necessary for communication with each other."    
+            },
+            {
+                "firmNameCaption":"FIRM NAME",
+                "firmName": "Pax Digital",
+                "workingDateIntervalCaption":"WORKING DATE INTERVAL",
+                "workingDateInterval":"06.2021-09.2021",
+                "usedTechnologiesCaption":"USED PROGRAMMING LANGUAGES",
+                "usedTechnologies":["Javascript", "React.js", "Next.js", "Koa.js", "Node.js"],
+                "descriptionCaption":"DESCRIPTION",
+                "description":"My job in this workplace was to make arrangements and improvements related to the frontends of third party applications to be run within the Shopify e-commerce ecosystem."    
+            },
+            {
+                "firmNameCaption":"FIRM NAME",
+                "firmName": "Anatolia Software",
+                "workingDateIntervalCaption":"WORKING DATE INTERVAL",
+                "workingDateInterval":"06.2014-08.2015",
+                "usedTechnologiesCaption":"USED PROGRAMMING LANGUAGES",
+                "usedTechnologies":["HTML", "CSS", "PHP", "Javascript", "Bootstrap"],
+                "descriptionCaption":"DESCRIPTION",
+                "description":"My job at this workplace was the development and editing of Full-Stack Web applications using PHP, developed with the listed technologies."    
+            }
+        ],
+        "education":
+        {
+        "educationCaption":"EDUCATIONAL INFORMATION",
+        "educationalInformation":[
+            {
+                "universityNameCaption": "University Name",
+                "universityName": "Çukurova University",
+                "facultyCaption":"Faculty",
+                "faculty":"Adana Vocational High School (Associate's Degree)",
+                "startFinishDateCaption":"Start/Finish Dates",
+                "startFinishDate":"09.2007-08.2009",
+                "departmentCaption":"Department Name",
+                "department":"Computer Technology and Programming",
+                "gradeCaption":"Finishing Grade",
+                "grade":"2.5/4.0",
+                "imgSrc":"/unilogos/cukurova_logo.png"
+            },
+            {
+                "universityNameCaption": "University Name",
+                "universityName": "Gaziantep University",
+                "facultyCaption":"Faculty",
+                "faculty":"Engineering Faculty (Bsc. Degree)",
+                "startFinishDateCaption":"Start/Finish Dates",
+                "startFinishDate":"09.2011-02.2018",
+                "departmentCaption":"Department Name",
+                "department":"Engineering Physics",
+                "gradeCaption":"Finishing Grade",
+                "grade":"2.1/4.0",
+                "imgSrc":"/unilogos/gaunlogo.jpeg"
+            },
+            {
+                "universityNameCaption": "University Name",
+                "universityName": "Gaziantep University",
+                "facultyCaption":"Faculty",
+                "faculty":"Institute of science (MSc. degree)",
+                "startFinishDateCaption":"Start/Finish Dates",
+                "startFinishDate":"02.2018-06.2021",
+                "departmentCaption":"Department Name",
+                "department":"Engineering Physics / High Energy and Plasm Physics",
+                "gradeCaption":"Finishing Grade",
+                "grade":"2.88/4.0",
+                "imgSrc":"/unilogos/gaunlogo.jpeg"
+            }
+        ]},
+        "foreignLanguage":
+        {
+            "foreignLanguageCaption":"FOREIGN LANGUAGE INFORMATION",
+            "foreignLanguageItems":[
+                {
+                    "language":"Turkish",
+                    "grade":"Native Language"
+                },
+                {
+                    "language":"English",
+                    "grade":"Good"
+                }
+            ],
+            "foreignLanguageNote":"Our language of education at the Gaziantep University was 100% English. So, I am ready to be tested."
+        },
+        "programmingSkills":
+        {
+            "programmingSkillsCaption":"PROGRAMMING SKILLS",
+            "programmingSkillItems":
+            [
+                "C/C++",
+                "Javascript",
+                "Node.js",
+                "React.js",
+                "Java",
+                "CSS",
+                "HTML"
+            ]
+        }
+    },
+    "Projects":
+    {
+        "meanfulQuote":"Experience is not something that is gained suddenly, it is gained through hard work.",
+        "projectItems":
+        [
+            {
+                "projectTitleCaption":"Project Name:",
+                "projectTitle":"Improvement of D<sub>s</sub><sup>&plusmn;</sup> meson's signal via artificial neural networks.",
+                "projectPurposeTitle":"Aim of the project: ",
+                "projectPurpose":"Developed as Master of Science graduation project",
+                "projectDateTitle":"Project Date:",
+                "projectDate":"06/2021",
+                "projectLinkTitle":"Project Link: ",
+                "clickHere":"CLICK HERE",
+                "projectLink":"https://github.com/01mk027/improving_Ds_mesons_signal_via_cppandROOT",
+                "projectDescriptionTitle":"Project Description:",
+                "projectDescription":"The aim of the project is to improve the signal of the D<sub>s</sub><sup>&plusmn;</sup> meson in the data recorded with the ALEPH detector in the Large Electron-Positron Collider. The Ds± meson is structured via the decay channel D<sub>s</sub><sup>&plusmn;</sup>&rarr;&Phi;+&Pi;. The &Phi; meson is also structured via the Φ&rarr;K<sup>+</sup>K<sup>-</sup> decay channel. The analysis can be analyzed in two parts. The first part consists of structuring the particles in the decay channel and recording the values of the variables to be used in classification. The second part consists of choosing the optimum method to be used in the classification and calculating the coefficients of the values to be used in the classification. Signal improvement is performed after classification. Classification was made with the help of TMVA (Toolkit For Multivariate Analysis) running within the ROOT data analysis framework. The Boosted Decision Tree method was used as the optimum classification (artificial neural network) method."
+            },
+            {
+                "projectTitleCaption":"Project Name:",
+                "projectTitle":"Open Charge Point Protocol 1.5 SOAP software for electrical vehicle chargers",
+                "projectPurposeTitle":"Aim of the project: ",
+                "projectPurpose":"Test of electrical charging devices",
+                "projectDateTitle":"Project Date: ",
+                "projectDate":"07/2022",
+                "projectLinkTitle":"Project Link: ",
+                "clickHere":"CLICK HERE",
+                "projectLink":"https://github.com/01mk027/clientRep",
+                "projectDescriptionTitle":"Project Description: ",
+                "projectDescription":"This project is an adaptation of the OCPP protocol, which is required for electric vehicle charging stations to communicate with the central system. By help of a javascript object associated with the main WSDL file, it is possible to respond to SOAP requests superimposed on HTTP. No tools are used for the session, the purpose is to respond to incoming SOAP requests."
+            },
+            {
+                "projectTitleCaption":"Project Name:",
+                "projectTitle":"Open Charge Point Protocol 1.5 SOAP software for electrical vehicle chargers (Central System Adaptation)",
+                "projectPurposeTitle":"Aim of the project: ",
+                "projectPurpose":"Test of Central System",
+                "projectDateTitle":"Project Date: ",
+                "projectDate":"07/2022",
+                "projectLinkTitle":"Project Link: ",
+                "clickHere":"CLICK HERE",
+                "projectLink":"https://github.com/01mk027/serverRep",
+                "projectDescriptionTitle":"Project Description: ",
+                "projectDescription":"This project is an adaptation of the Open Ended Charging Point protocol version 1.5 (SOAP) for the central system. In this project, which responds to SOAP messages (letters) superimposed on HTTP and tries response incoming SOAP responses.."
+            },
+            {
+                "projectTitleCaption":"Project Name:",
+                "projectTitle":"Preperation of Central System of charging stations without OCPP",
+                "projectPurposeTitle":"Aim of the project: ",
+                "projectPurpose":"Representation of system",
+                "projectDateTitle":"Project Date: ",
+                "projectDate":"05/2022",
+                "projectLinkTitle":"Project Link: ",
+                "clickHere":"CLICK HERE",
+                "projectLink":"https://github.com/01mk027/Makso",
+                "projectDescriptionTitle":"Project Description: ",
+                "projectDescription":"This project is a rehearsal of a charging station network management software. MongoDB is used as database in this project. The expression-session library was used for session management. The test API of the Iyzico payment system was used to make the payment by credit card as a representative. It was used from a library that practices Luhn retrieval, so that the entered credit card number is not entered randomly."
+            }
+        ]
+    },
+    "Thesis":
+    {
+        "desciption":"This is a description."
+    },
+    "Services":
+    {
+        "missionVisionCaption":"MISSION & VISION",
+        "missionVision":"Customer satisfaction is my primary duty on this road that I set out with the slogan of optimum time, maximum efficiency. I am ready to do the best for you, my valued customers, with the ambition and determination of my vision to be in the world class in every aspect in terms of programming. At the same time, I am ready to prove my competence in the services I offer.",
+        "servicesCaption":"PROVIDED SERVICES",
+        "serviceItems":
+        [
+            {
+                "serviceItemCaption":"BACK-END DEVELOPMENT",
+                "serviceItemDescription":"I develop backend software on a corporate and individual scale, designed in microservice and monolithic architecture, based on security and processing speed, at a level that can meet the requirements of the era.",
+                "serviceItemUsedTechsCaption":"USED TECHNOLOGIES",
+                "serviceItemUsedTechs":["Node.JS", "Java + Spring Boot Framework", "PHP (Without using framework)"]
+            },
+            {
+                "serviceItemCaption":"FRONT-END DEVELOPMENT",
+                "serviceItemDescription":"I offer an eye-catching, interactive front-end development service compatible with mobile devices and computers at the disposal of my valued customers.",
+                "serviceItemUsedTechsCaption":"USED TECHNOLOGIES",
+                "serviceItemUsedTechs":["HTML", "CSS", "Bootstrap", "React.JS"]
+            },
+            {
+                "serviceItemCaption":"MICROCONTROLLER SOFTWARES",
+                "serviceItemDescription":"I develop projects, homework, and similar works that involve the use of analog and digital sensors, which can be done using Arduino, with high precision.",
+                "serviceItemUsedTechsCaption":"USED TECHNOLOGIES",
+                "serviceItemUsedTechs":["C","C++"]
+            }
+        ]
+    
+    },
+    "NotFound":
+    {
+        "notFoundContent":"I'M SORRY, VISITED PAGE DOESN'T EXIST"
+    }
+}

@@ -1,0 +1,125 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.mainDivOfNav{
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+    background-color: grey;
+}
+
+.navIconImgTr
+{
+    border-radius: 50%;
+    width: 44px !important;
+    height: 44px !important;
+}
+
+.navIconImgEn
+{
+    border-radius: 50%;
+    width: 44px !important;
+    height: 44px !important;
+}
+
+.navIconImgEn, .navIconImgTr:hover
+{
+    cursor: pointer;
+}
+
+.translateColor{
+    background-color: green;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.translateDark
+{
+    background-color: indigo;
+    opacity: 0.9;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+
+@media only screen and (min-width: 992px) {
+    .navEncloser
+    {
+        margin: auto;
+        width: 50%;
+        padding: 10px;    
+    }
+    .navItemText
+    {
+        color: white;
+        margin-right: 18px;
+    }
+    .navItemText:hover
+    {
+        color: orange;
+    }
+
+    .navLink
+    {
+        margin-left: 18px;
+    }
+
+
+    .flagsFrame {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+    .navIconImgTr
+    {
+        border-radius: 50%;
+        width: 40px !important;
+        height: 40px !important;
+        
+    }
+
+    .navIconImgEn
+    {
+        border-radius: 50%;
+        width: 40px !important;
+        height: 40px !important;
+        
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .navItemText:hover
+    {
+        color: orange;
+    }
+    
+    .flagsFrame {
+        display: grid;
+        grid-template-columns: 40px 40px;
+        grid-gap: 10px;
+        float: left;
+    }
+    .navIconImgTr
+    {
+        border-radius: 50%;
+        width: 30px !important;
+        height: 30px !important;
+        
+    }
+
+    .navIconImgEn
+    {
+        border-radius: 50%;
+        width: 30px !important;
+        height: 30px !important;
+        
+    }
+  }

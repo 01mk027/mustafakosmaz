@@ -1,0 +1,246 @@
+{
+    "Navbar":
+    {
+        "mainPage":"Ana Sayfa",
+        "aboutMe" : "Hakkımda",
+        "projects": "Projeler",
+        "thesis":"Bilimsel Yayın",
+        "services":"Hizmetler"
+    },
+    "Index":
+    {
+        "teslaQuote":"Evrenin gizemini anlamak istiyorsanız enerji, frekans ve titreşim yasalarıyla düşünün.",
+        "teslaFullName": "Nikola TESLA",
+        "inMemoryOfTesla": "Tesla'nın anısına",
+        "showSub1": "Bilimin ışığında, başarının izinde.",
+        "showSub2":"Hep birlikte yükselmenin gayretiyle.",
+        "showSub3":"İlimin kudretiyle hep ileriye.",
+        "introductionCaption":"HOŞGELDİNİZ",
+        "introductionText":"Ben Mustafa KOŞMAZ. Kendimi tanıtmak adına oluşturduğum bu sitede sizlere hakkımda yeterince bilgi vermeyi amaçlıyorum. Hakkımdaki bilgilere Hakkımda sayfasından, projelerimle ilgili bilgilere de Projeler sayfasından ulaşabilirsiniz. Sevgiyle."
+    },
+    "About":
+    {
+        "generalInformation":
+        {
+            "generalInformationCaption": "GENEL BİLGİLER",
+            "fullNameCaption": "TAM İSİM",
+            "fullName":"Mustafa KOŞMAZ",
+            "emailCaption":"E-POSTA",
+            "email":"mustafagantep27@gmail.com",
+            "birthDateCaption":"DOĞUM TARİHİ",
+            "birthDate":"13.04.1989",
+            "birthPlaceCaption":"DOĞUM YERİ",
+            "birthPlace":"Adana",
+            "nationalityCaption":"UYRUK",
+            "nationality":"Türkiye Cumhuriyeti",
+            "militaryStatusCaption": "ASKERLİK DURUMU",
+            "militaryStatus": "Muaf",
+            "workingExperienceCaption":"İŞ TECRÜBESİ",
+            "summaryCaption":"ÖZET",
+            "summary":"Sahip olduğum güçlü sayısal altyapı sayesinde, analiz yapma yeteneğim kuvvetlidir. Yazılımın birçok branşında deneyimim olmakla birlikte, kariyer hedefimi bir full-stack developer olarak devam ettirmek niyetindeyim. Hırslı ve azimli kişiliğimi yaptığım işe yansıtmak en büyük özelliğimdir."
+        },
+        "workingExperience":
+        [
+            {
+                "firmNameCaption":"FİRMA ADI",
+                "firmName": "Maksopus Yazılım",
+                "workingDateIntervalCaption":"ÇALIŞILAN TARİH",
+                "workingDateInterval":"03.2022-06.2023",
+                "usedTechnologiesCaption":"KULLANILAN TEKNOLOJİLER",
+                "usedTechnologies":["Node.js", "Java", "Javascript"],
+                "descriptionCaption":"FAALİYET KONUSU",
+                "description":"Bu işyerindeki görevim, elektrikli araç şarj istasyonları ile bağlı bulundukları merkezi sisteme ait yazılımların, birbiriyle haberleşmeleri için gerekli olan Açık Uçlu Şarj Noktası (OCPP) protokolünün dahil edilmesi suretiyle geliştirilmesiydi."    
+            },
+            {
+                "firmNameCaption":"FİRMA ADI",
+                "firmName": "Pax Digital",
+                "workingDateIntervalCaption":"ÇALIŞILAN TARİH",
+                "workingDateInterval":"06.2021-09.2021",
+                "usedTechnologiesCaption":"KULLANILAN TEKNOLOJİLER",
+                "usedTechnologies":["Javascript", "React.js", "Next.js", "Koa.js", "Node.js"],
+                "descriptionCaption":"FAALİYET KONUSU",
+                "description":"Bu işyerindeki görevim, Shopify e-ticaret ekosistemi içerisinde çalıştırılacak üçüncü parti uygulamaların ön yüzleri ile alakalı düzenlemeler ve geliştirmeler yapmaktı."    
+            },
+            {
+                "firmNameCaption":"FİRMA ADI",
+                "firmName": "Anatolia Yazılım",
+                "workingDateIntervalCaption":"ÇALIŞILAN TARİH",
+                "workingDateInterval":"06.2014-08.2015",
+                "usedTechnologiesCaption":"KULLANILAN TEKNOLOJİLER",
+                "usedTechnologies":["HTML", "CSS", "PHP", "Javascript", "Bootstrap"],
+                "descriptionCaption":"FAALİYET KONUSU",
+                "description":"Bu işyerindeki görevim, PHP kullanılarak, listede sıralanan teknolojilerle beraber geliştirilen Full-Stack Web uygulamalarının geliştirilmesi ve düzenlenmesiydi."    
+            }
+        ],
+        "education":
+        {
+        "educationCaption":"EĞİTİM BİLGİSİ",
+        "educationalInformation":
+        [
+            {
+                "universityNameCaption": "Üniversite Adı",
+                "universityName": "Çukurova Üniversitesi",
+                "facultyCaption":"Fakülte",
+                "faculty":"Adana Meslek Yüksek Okulu",
+                "startFinishDateCaption":"Başlangıç/Bitiş Tarihleri",
+                "startFinishDate":"09.2007-08.2009",
+                "departmentCaption":"Bölüm Adı",
+                "department":"Bilgisayar Teknolojisi ve Programlama",
+                "gradeCaption":"Diploma Notu",
+                "grade":"2.5/4.0",
+                "imgSrc":"/unilogos/cukurova_logo.png"
+            },
+            {
+                "universityNameCaption": "Üniversite Adı",
+                "universityName": "Gaziantep Üniversitesi",
+                "facultyCaption":"Fakülte",
+                "faculty":"Mühendislik Fakültesi",
+                "startFinishDateCaption":"Başlangıç/Bitiş Tarihleri",
+                "startFinishDate":"09.2011-02.2018",
+                "departmentCaption":"Bölüm Adı",
+                "department":"Fizik Mühendisliği",
+                "gradeCaption":"Diploma Notu",
+                "grade":"2.1/4.0",
+                "imgSrc":"/unilogos/gaunlogo.jpeg"
+            },
+            {
+                "universityNameCaption": "Üniversite Adı",
+                "universityName": "Gaziantep Üniversitesi",
+                "facultyCaption":"Fakülte",
+                "faculty":"Fen Bilimleri Enstitüsü (Master)",
+                "startFinishDateCaption":"Başlangıç/Bitiş Tarihleri",
+                "startFinishDate":"02.2018-06.2021",
+                "departmentCaption":"Bölüm Adı",
+                "department":"Fizik Mühendisliği / Yüksek Enerji ve Plazma Fiziği",
+                "gradeCaption":"Diploma Notu",
+                "grade":"2.88/4.0",
+                "imgSrc":"/unilogos/gaunlogo.jpeg"
+            }
+        ]
+        },
+        "foreignLanguage":
+        {
+            "foreignLanguageCaption":"YABANCI DİL BİLGİSİ",
+            "foreignLanguageItems":[
+                {
+                    "language":"Türkçe",
+                    "grade":"Anadil"
+                },
+                {
+                    "language":"İngilizce",
+                    "grade":"İyi"
+                }
+            ],
+            "foreignLanguageNote":"Gaziantep Üniversitesi'nde eğitim dilimiz %100 İngilizce idi."
+        },
+        "programmingSkills":
+        {
+            "programmingSkillsCaption":"PROGRAMLAMA BECERİLERİ",
+            "programmingSkillItems":
+            [
+                "C/C++",
+                "Javascript",
+                "Node.js",
+                "React.js",
+                "Java",
+                "CSS",
+                "HTML"
+            ]
+        }
+    },
+    "Projects":
+    {
+        "meanfulQuote":"Tecrübe aniden kazanılan birşey değildir, çalışmakla kazanılır.",
+        "projectItems":
+        [
+            {
+                "projectTitleCaption":"Proje Adı:",
+                "projectTitle":"D<sub>s</sub><sup>&plusmn;</sup> mezonun sinyalinin yapay sinir ağları kullanılarak iyileştirilmesi",
+                "projectPurposeTitle":"Projenin Amacı: ",
+                "projectPurpose":"Yüksek Lisans Bitirme Projesi",
+                "projectDateTitle":"Proje Tarihi",
+                "projectDate":"06/2021",
+                "projectLinkTitle":"Proje Linki",
+                "clickHere":"BURAYA TIKLA",
+                "projectLink":"https://github.com/01mk027/improving_Ds_mesons_signal_via_cppandROOT",
+                "projectDescriptionTitle":"Proje Açıklama",
+                "projectDescription":"Projenin amacı Büyük Elektron-Pozitron Çarpıştırıcısı'nda bulunan ALEPH dedektörü ile kaydedilen datalarda bulunan D<sub>s</sub><sup>&plusmn;</sup> mezonuna ait sinyalin iyileştirilmesidir. D<sub>s</sub><sup>&plusmn;</sup> mezonu, D<sub>s</sub><sup>&plusmn;</sup>&rarr;&Phi;+&Pi; bozunum kanalı vasıtasıyla yapılandırılmıştır. &Phi; mezonuda &Phi;&rarr;K<sup>+</sup>K<sup>-</sup> bozunum kanalı vasıtasıyla yapılandırılmıştır. Analiz iki kısımda incelenebilir. İlk kısım bozunum kanalındaki parçacıkların yapılandırılmasından ve sınıflandırmada kullanılacak değişkenlere ait değerlerin kaydedilmesinden ibarettir. İkinci kısım, sınıflandırmada kullanılacak optimum metodun seçilmesi ve sınıflandırmada kullanılacak değerlerin katsayılarının hesaplanmasından ibarettir. Sinyal iyileştirilmesi sınıflandırma yapıldıktan sonra icra edilmiştir. Sınıflandırma, ROOT data analiz yazılımı bünyesinde çalışan TMVA(Toolkit For Multivariate Analysis) yardımıyla yapılmıştır. Optimum sınıflandırma metodu olarak Boosted Decision Tree metodu kullanılmıştır."
+            },
+            {
+                "projectTitleCaption":"Proje Adı:",
+                "projectTitle":"Elektrikli Araç Şarj İstasyonları için OCPP1.5 Haberleşme Yazılımı",
+                "projectPurposeTitle":"Projenin Amacı: ",
+                "projectPurpose":"Elektrikli Şarj Cihazının Test Edilmesi",
+                "projectDateTitle":"Proje Tarihi",
+                "projectDate":"07/2022",
+                "projectLinkTitle":"Proje Linki",
+                "clickHere":"BURAYA TIKLA",
+                "projectLink":"https://github.com/01mk027/clientRep",
+                "projectDescriptionTitle":"Proje Açıklama",
+                "projectDescription":"Bu proje, elektrikli araç şarj istasyonlarının merkezi sistemle iletişim kurması için gerekli olan OCPP protokolünün bir uyarlamasıdır. Ana WSDL dosyasıyla ilişkili bir javascript nesnesi yardımıyla, HTTP üzerine bindirilmiş SOAP isteklerine yanıt vermek mümkündür. Oturum için herhangi bir araç kullanılmaz, amaç gelen SOAP isteklerine cevap vermektir."
+            },
+            {
+                "projectTitleCaption":"Proje Adı:",
+                "projectTitle":"Elektrikli Araç Şarj İstasyonları için OCPP1.5 Haberleşme Yazılımı (Merkezi Sistem)",
+                "projectPurposeTitle":"Projenin Amacı: ",
+                "projectPurpose":"Merkezi Sistemin Test Edilmesi",
+                "projectDateTitle":"Proje Tarihi",
+                "projectDate":"07/2022",
+                "projectLinkTitle":"Proje Linki",
+                "clickHere":"BURAYA TIKLA",
+                "projectLink":"https://github.com/01mk027/serverRep",
+                "projectDescriptionTitle":"Proje Açıklama",
+                "projectDescription":"Bu proje Açık Uçlu Şarj Noktası protokolünün 1.5 (SOAP) versiyonunun merkezi sistem için olan uyarlamasıdır. HTTP üzerine bindirilen SOAP isteklerine cevap veren ve gelen SOAP isteklerini alan bu projede, SOAP servisi olarak bir Javascript nesnesinden yararlanılmıştır. "
+            },
+            {
+                "projectTitleCaption":"Proje Adı:",
+                "projectTitle":"Elektrikli Araç Şarj İstasyonları yönetim sistemi provası",
+                "projectPurposeTitle":"Projenin Amacı: ",
+                "projectPurpose":"Merkezi Sistemin Test Edilmesi",
+                "projectDateTitle":"Proje Tarihi",
+                "projectDate":"07/2022",
+                "projectLinkTitle":"Proje Linki",
+                "clickHere":"BURAYA TIKLA",
+                "projectLink":"https://github.com/01mk027/Makso",
+                "projectDescriptionTitle":"Proje Açıklama",
+                "projectDescription":"Bu proje, bir şarj istasyonu ağı yönetim yazılımının bir provasıdır. Şarj cihazlarını varmışcasına geliştirilen bu projede veritabanı olarak MongoDB kullanılmıştır. Oturum yönetimi amacıyla express-session kütüphanesinden yararlanılmıştır. Kredi kartıyla ödemenin temsili olarak yapılması amacıyla Iyzico ödeme sisteminin test API'si kullanılmıştır. Girilen kredi kartı numarasının rastgele girilip girilmediğinin anlaşılması amacıyla, Luhn algoritmasını tatbik eden bir kütüphaneden istifade edilmiştir."
+            }
+        ]
+    },
+    "Thesis":
+    {
+        "desciption":"Bu bir açıklamadır."
+    },
+    "Services":
+    {
+        "missionVisionCaption":"MİSYON & VİZYON",
+        "missionVision":"Optimum zaman, maksimum verim sloganıyla çıktığım bu yolda müşteri memnuniyeti birincil vazifemdir. Programlama anlamında her açıdan dünya klasmanında yer almayı vizyon ediniyor olmamın verdiği hırs ve azimle, siz değerli müşterilerim için en iyisini yapmaya hazırım. Aynı zamanda sunduğum hizmetlere dair yetkinliğimi de ispata hazırım.",
+        "servicesCaption":"VERİLEN HİZMETLER",
+        "serviceItems":
+        [
+            {
+                "serviceItemCaption":"ARKA YÜZ GELİŞTİRME",
+                "serviceItemDescription":"Çağın gereksinimlerini karşılayabilecek düzeyde, güvenliği ve işlem hızını baz alan, mikroservis ve monolitik mimaride tasarlanmış arka yüz yazılımlarını kurumsal ve bireysel ölçekte geliştiriyorum.",
+                "serviceItemUsedTechsCaption":"KULLANILAN TEKNOLOJİLER",
+                "serviceItemUsedTechs":["Node.JS", "Java + Spring Boot Framework", "PHP (Framework kullanmadan)"]
+            },
+            {
+                "serviceItemCaption":"ÖN YÜZ GELİŞTİRME",
+                "serviceItemDescription":"Gözalıcı, mobil cihazlarla ve bilgisayarlarla uyumlu, interaktif önyüz geliştirme hizmetini siz değerli müşterilerimin tasarrufuna sunuyorum.",
+                "serviceItemUsedTechsCaption":"KULLANILAN TEKNOLOJİLER",
+                "serviceItemUsedTechs":["HTML", "CSS", "Bootstrap", "React.JS"]
+            },
+            {
+                "serviceItemCaption":"MİKRODENETLEYİCİ YAZILIMLARI",
+                "serviceItemDescription":"Arduino kullanılarak yapılabilecek, analog ve dijital sensör kullanımını muhteva eden proje, ev ödevi, ve benzeri çalışmalarınızı ileri derece hassasiyetle geliştiriyorum.",
+                "serviceItemUsedTechsCaption":"KULLANILAN TEKNOLOJİLER",
+                "serviceItemUsedTechs":["C","C++"]
+            }
+        ]
+    
+    },
+    "NotFound":
+    {
+        "notFoundContent":"ÜZGÜNÜM, BÖYLE BİR SAYFA YOK!"
+    }
+}

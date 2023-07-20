@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.mainDivOfIndex{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    background-color: blue;
+    overflow: hidden;
+}
+
+
+
+.teslaQuoteFrame{
+    margin: auto;
+    min-width: 80%;
+    text-align: center;
+    /*padding: 10px;*/
+}
+
+.teslaQuote{
+    margin-top: 145px;
+    font-size: 4vw;
+    font-family: 'Times New Roman', sans-serif; 
+    color: orange;
+    text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000;
+}
+
+.teslaFullName{
+    margin-top: 10px;
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif; 
+    color: orange;
+    text-shadow: 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000;
+}
+
+.afterTeslaFrame
+{
+    background-color: orange;
+    min-height: 100px;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.InMemoryOfTesla{
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.secondFrame
+{
+    background-image: linear-gradient(180deg, indigo, orange);
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;   
+}
+
+.invokeScrollLeft
+{
+    float: left;
+}
+
+.invokeScrollRight
+{
+    float: right;
+    margin-right: 20px;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: yellow; }
+    100% { color: red; }
+  }
+
+
+.arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    animation-name: animateArrows;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+}
+
+.downArr
+{
+    font-size: 9vw;
+    animation: color-change 1s infinite;
+    padding: 5%;
+}
+
+@keyframes animateFirstText{
+    0%{
+        opacity: 1;
+        visibility: visible;
+    }
+    100%{
+        opacity: 0;
+        visibility: visible;
+    }
+}
+
+
+.secondFrameFirstText
+{
+    animation: animateFirstText;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animateFrameYellow
+{
+  0%
+  {
+    transform: translate(-100%, 0%);
+    opacity: 0.1;
+    display: none;
+  }
+  50%{
+    opacity: 0.5;
+    display: visible;
+  }
+  100%{
+    opacity: 1;
+    display: visible;
+  }
+}
+
+.secondFrameSub1Hide
+{
+    display: none;
+}
+
+.secondFrameSub1Show{
+    background-color: white;
+    padding: 10%;
+    margin: 5%;
+    border-radius: 12px;
+}
+
+.introduction
+{
+    margin: auto;
+    border-radius: 12px;
+    width: 90%;
+    padding: 2.5%;
+    background: purple;
+    text-align: center;
+    animation-name: animateFrameYellow;
+    animation-duration: 1.5s;
+    min-height: 20vh;
+    box-shadow: 0 0 30px 9px #fff;
+}
+
+.introductionCaption
+{
+    font-size: 3vw;
+}
+
+.introductionTextFrame
+{
+    text-align: center;
+}
+
+.introductionCaption
+{
+    color: aquamarine;
+}
+
+@media screen and (min-width: 1023px) {
+    .Tesla{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .secondFrame{
+        min-height: 350vh;
+    }
+    
+    .teslaFrame
+    {
+        min-height: 75vh;
+        background-image: url('../images/teslaCoil.jpg');
+        background-size: cover; 
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+    }
+    .secondFrameSub1Show{
+        min-height: 75vh;
+        margin-top: 40px;
+    }
+    .secondFrameSub1Img
+    {
+        width: 350px;
+        height: 350px;
+        float: left;
+        margin-left: 10%;
+        border-radius: 50%;
+    }
+    
+    .secondFrameSub1Txt{
+        float: right;
+        font-size: 2.5vw;
+        margin-left: 10%;
+        max-width: 30%;
+        margin-top: 30px;
+        
+    }
+    .introductionCaption
+    {
+        margin-top: 150px;
+    }
+    .introductionText
+    {
+        font-size: 2.5vw;
+        color: orange;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 700px){
+    .Tesla{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 120px;
+        height: 120px;
+        padding: 12px;
+    }
+    
+    .teslaFrame
+    {
+        min-height: 40vh;
+        background-image: url('../images/teslaCoil.jpg');
+        background-size: cover;
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+    }
+    .secondFrameSub1Show
+    {
+        min-height: 40vh;
+        margin-top: 20px;
+    }
+    .secondFrameSub1Img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    .secondFrameSub1Txt{
+        display: block;
+        font-size: 2.2vw;
+        font-weight: bold;
+        max-width: 100%;
+        text-align: center !important;
+        margin-top: 20px;
+    }
+    .introductionCaption
+    {
+        margin-top: 150px;
+    }
+    .introductionText
+    {
+        font-size: 2.7vw;
+        color: orange;
+        margin-bottom: 150px;
+    }
+
+    .secondFrame{
+        min-height: 220vh;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px){
+    .Tesla{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+        height: 90px;
+        padding: 7px;
+    }
+    .teslaFrame
+    {
+        min-height: 37vh;
+        background-image: url('../images/teslaCoil.jpg');
+        background-size: cover; 
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+    }
+    .secondFrameSub1Img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+    }
+    
+    .secondFrameSub1Txt{
+        display: block;
+        font-size: 2.9vw;
+        font-weight: bold;
+        max-width: 100%;
+        text-align: center !important;
+        margin-top: 20px;
+    }
+
+    .introductionCaption{
+        margin-top: 120px;
+    }
+
+    .introductionText
+    {
+        font-size: 2.8vw;
+        color: orange;
+        margin-bottom: 120px;
+    }
+
+    .secondFrame{
+        min-height: 165vh;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 150px){
+    .Tesla{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70px;
+        height: 70px;
+        padding: 6px;
+    }
+    .teslaFrame
+    {
+        min-height: 36vh;
+        background-image: url('../images/teslaCoil.jpg');
+        background-size: cover; 
+        margin: 0 auto;
+        padding: 20px;
+        position: relative;
+    }
+    .secondFrameSub1Img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+    
+    .secondFrameSub1Txt{
+        display: block;
+        font-size: 2.9vw;
+        font-weight: bold;
+        max-width: 100%;
+        text-align: center !important;
+        margin-top: 20px;
+    }
+    .introductionText
+    {
+        font-size: 3.2vw;
+        color: orange;
+    }
+
+    .secondFrame{
+        min-height: 150vh;
+    }
+
+    .introductionCaption
+    {
+        margin-top: 70px;
+    }
+
+    .introductionText{
+        margin-bottom: 70px;
+    }
+}
+
+

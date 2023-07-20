@@ -1,0 +1,58 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.mainDivOfNotFound{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    background-image: linear-gradient(180deg, indigo, orange);
+}
+
+.generalFrame
+{
+    min-height: 90vh !important;
+    min-width: 100%;
+    background-image: linear-gradient(180deg, indigo, orange); 
+    overflow: auto;
+}
+
+.notFoundFrame
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.notFoundImage{
+    width: 70%;
+    margin: auto;
+    border: 6px solid red;
+    border-radius: 12px;
+}
+
+.notFoundTextFrame
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: yellow;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 12px;
+}
+
+.notFoundContent
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
