@@ -1,10 +1,10 @@
 import {React, useContext, useEffect, useState} from 'react'
-import  LanguageContext  from '../context/LanguageContext'
 import indexStyles from './Index.module.css';
-import bulb from '../images/bulb.jpg';
-import handshake from '../images/handshake.jpg';
-import math from '../images/math.jpg';
-import Tesla from '../images/Tesla.png'
+import  LanguageContext  from '../context/LanguageContext'
+import bulb from '../images/bulb.webp';
+import handshake from '../images/handshake.webp';
+import math from '../images/math.webp';
+import Tesla from '../images/Tesla.webp'
 
 
 
@@ -21,7 +21,7 @@ function Index() {
   
 
 
-
+/*
   useEffect(() => {
     
     const handleScroll = event => {
@@ -52,7 +52,7 @@ function Index() {
     };
   }, []);
 
-
+*/
 
   console.log(currentIndexContent);
   
@@ -96,10 +96,7 @@ function Index() {
           </div>
         </div>
         
-        <div>
-          KRAL
-        </div>
-
+      
 
       </div>
     </div>

@@ -46,7 +46,7 @@ function NavBar() {
 
   const showClassname = event => {
     //console.log('className 👉️', event.currentTarget.className);
-    event.persist();
+    //event.persist();
     if (event.currentTarget.classList.contains('show')) {
       event.currentTarget.classList.remove('show');
     }

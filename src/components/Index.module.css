@@ -4,6 +4,10 @@
     0%{
         opacity: 0;
         visibility: hidden;
+    } 
+    50%{
+        opacity: 0.5;
+        visibility: visible;
     }
     100%{
         opacity: 1;
@@ -13,7 +17,7 @@
 
 .mainDivOfIndex{
     animation-name: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 5000ms;
     background-color: blue;
     overflow: hidden;
 }
@@ -84,16 +88,7 @@
   }
 
 
-.arrow {
-    border: solid black;
-    border-width: 0 5px 5px 0;
-    display: inline-block;
-    padding: 3px;
-    animation-name: animateArrows;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 5;
-}
+
 
 .downArr
 {
@@ -197,7 +192,7 @@
     .teslaFrame
     {
         min-height: 75vh;
-        background-image: url('../images/teslaCoil.jpg');
+        background-image: url('../images/teslaCoil.webp');
         background-size: cover; 
         margin: 0 auto;
         padding: 20px;
@@ -249,7 +244,7 @@
     .teslaFrame
     {
         min-height: 40vh;
-        background-image: url('../images/teslaCoil.jpg');
+        background-image: url('../images/teslaCoild075.webp');
         background-size: cover;
         margin: 0 auto;
         padding: 20px;
@@ -306,7 +301,7 @@
     .teslaFrame
     {
         min-height: 37vh;
-        background-image: url('../images/teslaCoil.jpg');
+        background-image: url('../images/teslaCoild05.webp');
         background-size: cover; 
         margin: 0 auto;
         padding: 20px;
@@ -358,7 +353,7 @@
     .teslaFrame
     {
         min-height: 36vh;
-        background-image: url('../images/teslaCoil.jpg');
+        background-image: url('../images/teslaCoild025.webp');
         background-size: cover; 
         margin: 0 auto;
         padding: 20px;
