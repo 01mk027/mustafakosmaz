@@ -96,6 +96,11 @@ function Index() {
           </div>
         </div>
         
+        <div>
+          KRAL
+        </div>
+
+
       </div>
     </div>
   )
