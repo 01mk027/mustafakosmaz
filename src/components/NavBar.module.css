@@ -11,7 +11,7 @@
 
 .mainDivOfNav{
     animation-name: fadeIn;
-    animation-duration: 500ms;
+    animation-duration: 300ms;
     background-color: grey;
 }
 

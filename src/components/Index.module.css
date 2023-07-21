@@ -17,7 +17,7 @@
 
 .mainDivOfIndex{
     animation-name: fadeIn;
-    animation-duration: 5000ms;
+    animation-duration: 3500ms;
     background-color: blue;
     overflow: hidden;
 }
